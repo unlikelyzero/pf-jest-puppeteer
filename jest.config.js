@@ -7,5 +7,7 @@ module.exports = {
     testMatch: [
         '<rootDir>/__tests__/e2e/*.test.{js,jsx}'
     ]
-    setupFilesAfterEnv: ["expect-puppeteer"]
+    setupFilesAfterEnv: [
+        "expect-puppeteer"
+    ]
   }
